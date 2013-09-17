@@ -38,7 +38,7 @@
     var random = ko.observable(false),
         randomChanged = function () {
             logger.log("Random checkbox value: " + random());
-            app.trigger("random", random());
+            deck.pickRandom(random());
             return true;
         };
 

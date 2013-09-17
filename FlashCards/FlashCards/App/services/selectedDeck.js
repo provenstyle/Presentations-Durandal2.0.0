@@ -45,11 +45,7 @@
         deckName = ko.computed(function() {
             return selectedDeck().name;
         }, this);
-        
-    app.on('random').then(function(value) {
-        pickRandom(value);
-    });
-        
+                
     return {
         setSelectedDeck: setSelectedDeck,        
         deckName: deckName,
@@ -59,6 +55,7 @@
         previous: previous,
         hasNext: hasNext,
         hasPrevious: hasPrevious,
-        cardCount: cardCount
+        cardCount: cardCount,
+        pickRandom: pickRandom
     };
 });
