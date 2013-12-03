@@ -206,9 +206,15 @@
     <Content Include="App\services\random.js" />
     <Content Include="App\services\selectedDeck.js" />
     <Content Include="App\viewmodels\cards.js" />
+    <Content Include="App\viewmodels\cardsHeader.js" />
+    <Content Include="App\viewmodels\cardsBody.js" />
+    <Content Include="App\viewmodels\cardsFooter.js" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="App\viewmodels\library.js" />
     <Content Include="App\views\cards.html" />
+    <Content Include="App\views\cardsBody.html" />
+    <Content Include="App\views\cardsFooter.html" />
+    <Content Include="App\views\cardsHeader.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="App\views\library.html" />
     <Content Include="Content\app.css" />
