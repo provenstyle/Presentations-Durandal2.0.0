@@ -19,7 +19,8 @@
                 return decks[i];
             }
         }
-        return[];
+
+        return decks[0];
     };
 
     var decks = [

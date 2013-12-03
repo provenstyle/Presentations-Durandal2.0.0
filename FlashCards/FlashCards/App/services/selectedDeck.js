@@ -1,6 +1,6 @@
 ﻿define(['durandal/app', 'services/cardData', 'services/random'], function (app, cardData, randomPicker) {
 
-    var selectedDeckName = ko.observable("Multiplication"),
+    var selectedDeckName = ko.observable('Multiplication'),
         currentCardId = ko.observable(0),
         pickRandom = ko.observable(false),
         setSelectedDeck = function(name) {

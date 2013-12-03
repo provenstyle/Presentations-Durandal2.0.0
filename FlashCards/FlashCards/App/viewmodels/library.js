@@ -6,7 +6,7 @@
 
     var deckSelected = function(deckName) {
         selectedDeck.setSelectedDeck(deckName);
-        router.navigate('#/cards');
+        router.navigate('#/cards/' + deckName);
     };
 
     return {
